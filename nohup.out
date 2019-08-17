@@ -1,0 +1,133 @@
+10:49:33,253 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+10:49:33,253 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+10:49:33,253 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [jar:file:/home/dag/broker/dacp-dataflow-broker-3.5.0/dacp-dataflow-broker-3.5.0.jar!/logback.xml]
+10:49:33,255 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs multiple times on the classpath.
+10:49:33,255 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [jar:file:/home/dag/broker/dacp-dataflow-broker-3.5.0/dacp-dataflow-broker-3.5.0.jar!/logback.xml]
+10:49:33,255 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [file:/home/dag/broker/dacp-dataflow-broker-3.5.0/logback.xml]
+10:49:33,255 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [jar:file:/home/dag/broker/dacp-dataflow-broker-3.5.0/lib/dacp-brokerframe-worker-1.0.0.jar!/logback.xml]
+10:49:33,255 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [jar:file:/home/dag/broker/dacp-dataflow-broker-3.5.0/lib/dacp-core-2.9.0.jar!/logback.xml]
+10:49:33,255 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [jar:file:/home/dag/broker/dacp-dataflow-broker-3.5.0/lib/dacp-brokerframe-1.0.0.jar!/logback.xml]
+10:49:33,278 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@1d371b2d - URL [jar:file:/home/dag/broker/dacp-dataflow-broker-3.5.0/dacp-dataflow-broker-3.5.0.jar!/logback.xml] is not of type file
+10:49:33,388 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+10:49:33,394 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+10:49:33,403 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+10:49:33,484 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+10:49:33,487 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [FILE]
+10:49:33,498 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@1413246829 - No compression will be used
+10:49:33,500 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@1413246829 - Will use the pattern logs/dacp.%d{yyyy-MM-dd}.log for the active file
+10:49:33,504 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - The date pattern is 'yyyy-MM-dd' from file name pattern 'logs/dacp.%d{yyyy-MM-dd}.log'.
+10:49:33,504 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Roll-over at midnight.
+10:49:33,508 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Setting initial period to Wed Jan 16 10:49:33 CST 2019
+10:49:33,514 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - Active log file name: logs/dacp.log
+10:49:33,514 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - File property is set to [logs/dacp.log]
+10:49:33,516 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.asiainfo.dacp] to INFO
+10:49:33,516 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.springframework] to INFO
+10:49:33,516 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.hibernate] to WARN
+10:49:33,516 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache] to WARN
+10:49:33,516 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.zookeeper] to ERROR
+10:49:33,516 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+10:49:33,516 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ROOT]
+10:49:33,517 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+10:49:33,518 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@13eb8acf - Registering current configuration as safe fallback point
+
+2019-01-16 10:49:33.544 [main] INFO  org.springframework.context.support.AbstractApplicationContext.prepareRefresh:583 - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1fc2b765: startup date [Wed Jan 16 10:49:33 CST 2019]; root of context hierarchy
+2019-01-16 10:49:33.604 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions:317 - Loading XML bean definitions from file [/home/dag/broker/dacp-dataflow-broker-3.5.0/conf/spring/dacp-dataflow-broker.xml]
+2019-01-16 10:49:33.813 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions:317 - Loading XML bean definitions from class path resource [conf/spring/dacp-dataflow.xml]
+2019-01-16 10:49:33.834 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions:317 - Loading XML bean definitions from class path resource [conf/spring/beans.xml]
+2019-01-16 10:49:34.317 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions:317 - Loading XML bean definitions from class path resource [conf/spring/dacp-orm.xml]
+2019-01-16 10:49:34.372 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:165 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-16 10:49:34.776 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions:317 - Loading XML bean definitions from file [/home/dag/broker/dacp-dataflow-broker-3.5.0/conf/spring/dacp-dataflow.xml]
+2019-01-16 10:49:34.789 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions:317 - Loading XML bean definitions from class path resource [conf/spring/beans.xml]
+2019-01-16 10:49:34.943 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions:317 - Loading XML bean definitions from class path resource [conf/spring/dacp-orm.xml]
+2019-01-16 10:49:34.968 [main] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition:826 - Overriding bean definition for bean 'entityManagerFactory' with a different definition: replacing [Generic bean: class [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [conf/spring/dacp-orm.xml]] with [Generic bean: class [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [conf/spring/dacp-orm.xml]]
+2019-01-16 10:49:34.970 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:165 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-16 10:49:35.186 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions:317 - Loading XML bean definitions from file [/home/dag/broker/dacp-dataflow-broker-3.5.0/conf/spring/rabbitmq.xml]
+log4j:WARN No appenders could be found for logger (org.jboss.logging).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+2019-01-16 10:49:36.465 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory:356 - Building JPA container EntityManagerFactory for persistence unit 'jpa.dacp'
+2019-01-16 10:49:39.852 [main] INFO  org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory:414 - Initialized JPA EntityManagerFactory for persistence unit 'jpa.dacp'
+2019-01-16 10:49:42.298 [main] INFO  com.asiainfo.dacp.core.Configuration.load:123 - dacp_dataflow.properties加载成功
+2019-01-16 10:49:42.301 [main] INFO  com.asiainfo.dacp.core.Configuration.loadClasspathProperties:150 - 加载classpath*:conf/dacp_*.properties配置文件
+2019-01-16 10:49:42.302 [main] INFO  com.asiainfo.dacp.core.Configuration.loadClasspathProperties:150 - 加载file:conf/dacp_*.properties配置文件
+2019-01-16 10:49:42.306 [main] INFO  com.asiainfo.dacp.core.Configuration.loadClasspathProperties:154 - 加载classpath*:conf/delivery_*.properties配置文件
+2019-01-16 10:49:42.307 [main] INFO  com.asiainfo.dacp.core.Configuration.loadClasspathProperties:154 - 加载file:conf/delivery_*.properties配置文件
+2019-01-16 10:49:42.661 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions:317 - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2019-01-16 10:49:42.729 [main] ERROR com.asiainfo.dacp.core.DataSourceHolder.loadDataSourceDefs:127 - 从数据库表[metadbcfg]加载数据源配置不成功，StatementCallback; bad SQL grammar [select * from metadbcfg]; nested exception is java.sql.SQLSyntaxErrorException: ORA-00942: table or view does not exist
+
+Jan 16, 2019 10:49:44 AM redis.clients.jedis.JedisSentinelPool initSentinels
+INFO: Trying to find master from available Sentinels...
+Jan 16, 2019 10:49:44 AM redis.clients.jedis.JedisSentinelPool initSentinels
+INFO: Redis master running at 20.26.28.81:6379, starting Sentinel listeners...
+Jan 16, 2019 10:49:45 AM redis.clients.jedis.JedisSentinelPool initPool
+INFO: Created JedisPool to master at 20.26.28.81:6379
+2019-01-16 10:49:45.266 [main] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize:165 - Initializing ExecutorService 
+2019-01-16 10:49:45.309 [main] INFO  org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start:345 - Starting beans in phase -2147482648
+2019-01-16 10:49:45.338 [main] INFO  com.asiainfo.dacp.ds.DynamicDataSourceAspect.changeDataSource:29 - Use DataSource : {} > {}METADBSDataFlowBrokerVo com.asiainfo.dacp.dataflow.domain.job.repo.DataFlowBrokerRepository.findBybrokerId(String)
+2019-01-16 10:49:45.432 [main] INFO  com.asiainfo.dacp.ds.DynamicDataSourceAspect.restoreDataSource:35 - Revert DataSource : {} > {}METADBSDataFlowBrokerVo com.asiainfo.dacp.dataflow.domain.job.repo.DataFlowBrokerRepository.findBybrokerId(String)
+2019-01-16 10:49:46.929 [main] INFO  com.asiainfo.dacp.brokerframe.core.BrokerContext.registry:87 - 注册Broker成功
+2019-01-16 10:50:18.117 [main] ERROR com.asiainfo.dacp.brokerframe.tracelog.BrokerTraceLoggerService.getDdl:91 - [oracle]不支持的数据源
+2019-01-16 10:50:18.120 [main] INFO  com.asiainfo.dacp.brokerframe.tracelog.BrokerTraceLoggerService.crtPartition:97 - 创建分区,
+2019-01-16 10:50:18.121 [main] WARN  com.asiainfo.dacp.brokerframe.tracelog.BrokerTraceLoggerService.crtPartition:102 - ,创建分区失败,StatementCallback; uncategorized SQLException for SQL []; SQL state [99999]; error code [17104]; SQL statement to execute cannot be empty or null; nested exception is java.sql.SQLException: SQL statement to execute cannot be empty or null
+2019-01-16 10:50:18.227 [main] INFO  org.eclipse.jetty.server.Server.doStart:252 - jetty-7.6.0.v20120127
+2019-01-16 10:50:18.273 [main] INFO  org.eclipse.jetty.server.handler.ContextHandler.startContext:737 - started o.e.j.s.ServletContextHandler{/,null}
+2019-01-16 10:50:18.289 [main] INFO  org.eclipse.jetty.server.AbstractConnector.doStart:333 - Started SelectChannelConnector@0.0.0.0:8081
+2019-01-16 10:50:18 [main] [INFO] broker logger创建成功！
+2019-01-16 10:50:18 [main] [INFO] broker 启动成功
+2019-01-16 10:50:18 [Thread-11] [INFO] 刷新配置dacp_0116_d_1
+2019-01-16 10:50:18 [Thread-11] [INFO] 刷新配置dacp_0116_d_2
+2019-01-16 10:50:19.131 [pool-6-thread-4] WARN  com.asiainfo.dacp.core.DataSourceHolder.getDataSource:149 - 数据源[metadbs]初次链接未获取数据源
+2019-01-16 10:50:19.131 [pool-6-thread-2] WARN  com.asiainfo.dacp.core.DataSourceHolder.getDataSource:149 - 数据源[metadbs]初次链接未获取数据源
+2019-01-16 10:50:19.131 [pool-6-thread-3] WARN  com.asiainfo.dacp.core.DataSourceHolder.getDataSource:149 - 数据源[metadbs]初次链接未获取数据源
+2019-01-16 10:50:19.131 [pool-6-thread-1] WARN  com.asiainfo.dacp.core.DataSourceHolder.getDataSource:149 - 数据源[metadbs]初次链接未获取数据源
+2019-01-16 10:50:19.132 [pool-6-thread-4] INFO  com.asiainfo.dacp.core.DataSourceHolder.getDataSource:153 - 获取动态数据源null
+2019-01-16 10:50:19.132 [pool-6-thread-2] INFO  com.asiainfo.dacp.core.DataSourceHolder.getDataSource:153 - 获取动态数据源null
+2019-01-16 10:50:19.132 [pool-6-thread-3] INFO  com.asiainfo.dacp.core.DataSourceHolder.getDataSource:153 - 获取动态数据源null
+2019-01-16 10:50:19.132 [pool-6-thread-1] INFO  com.asiainfo.dacp.core.DataSourceHolder.getDataSource:153 - 获取动态数据源null
+2019-01-16 10:50:19.177 [pool-6-thread-2] WARN  com.asiainfo.dacp.core.DataSourceHolder.getDataSource:149 - 数据源[metadbs]初次链接未获取数据源
+2019-01-16 10:50:19.175 [pool-6-thread-1] WARN  com.asiainfo.dacp.core.DataSourceHolder.getDataSource:149 - 数据源[metadbs]初次链接未获取数据源
+2019-01-16 10:50:19.177 [pool-6-thread-2] INFO  com.asiainfo.dacp.core.DataSourceHolder.getDataSource:153 - 获取动态数据源null
+2019-01-16 10:50:19.177 [pool-6-thread-1] INFO  com.asiainfo.dacp.core.DataSourceHolder.getDataSource:153 - 获取动态数据源null
+2019-01-16 10:50:19.177 [pool-6-thread-4] WARN  com.asiainfo.dacp.core.DataSourceHolder.getDataSource:149 - 数据源[metadbs]初次链接未获取数据源
+2019-01-16 10:50:19.178 [pool-6-thread-4] INFO  com.asiainfo.dacp.core.DataSourceHolder.getDataSource:153 - 获取动态数据源null
+2019-01-16 10:50:30 [pool-6-thread-1] [INFO] 当前主机当选，开始jobTriggerSyncLeader
+2019-01-16 10:50:30 [pool-6-thread-2] [INFO] 当前主机当选，开始jobWaitSeqLeader
+2019-01-16 10:50:31 [pool-6-thread-2] [INFO] jobWaitSeqLeader完成，删除目录
+2019-01-16 10:50:31 [pool-6-thread-1] [INFO] jobTriggerSyncLeader完成，删除目录
+Exception in thread "Thread-10" java.lang.NoSuchMethodError: com.asiainfo.dacp.dataflow.broker.listener.JobFlowTreeListener.beat()V
+	at com.asiainfo.dacp.dataflow.broker.listener.JobFlowTreeListener.handle(JobFlowTreeListener.java:36)
+	at com.asiainfo.dacp.brokerframe.listener.AbstractListener.run(AbstractListener.java:31)
+	at java.lang.Thread.run(Thread.java:745)
+2019-01-16 10:50:40 [pool-6-thread-4] [INFO] 当前主机当选，开始jobStateLeader
+2019-01-16 10:50:40 [pool-6-thread-2] [INFO] 当前主机当选，开始jobPluginTriggerLeader
+2019-01-16 10:50:42 [pool-6-thread-6] [INFO] 执行:bin/go.sh "sh bin/runDp.sh -f dmxfortest -t 2019011101 "
+2019-01-16 10:50:42 [pool-6-thread-6] [INFO] 2019011101-bx_mgsx_i4_h-Vx5X执行失败
+2019-01-16 10:50:48 [Thread-8] [WARN] 2019011519-dacp_0115_h_1-CHRD jobVo 为空
+2019-01-16 10:50:50 [pool-6-thread-6] [INFO] 当前主机当选，开始UnitStateSyncLeader
+2019-01-16 10:50:50 [pool-6-thread-7] [INFO] 当前主机当选，开始jobTipLeader
+2019-01-16 10:50:51 [pool-6-thread-6] [INFO] UnitStateSyncLeader完成，删除目录
+2019-01-16 10:50:51 [Thread-8] [INFO] wait queue consume speed 147.08824157714844 task/sec,task 20190101-i_tpos_mr_trail_work_rest_d-PVM0v2 spends the most time, 192 ms 
+2019-01-16 10:50:56 [pool-6-thread-4] [INFO] jobStateLeader完成，删除目录
+Jan 16, 2019 10:50:59 AM com.sun.jersey.api.core.PackagesResourceConfig init
+INFO: Scanning for root resource and provider classes in the packages:
+  com.asiainfo.dacp.dataflow.broker.rest
+Jan 16, 2019 10:50:59 AM com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class com.asiainfo.dacp.dataflow.broker.rest.JobOperationRest
+Jan 16, 2019 10:50:59 AM com.sun.jersey.api.core.ScanningResourceConfig init
+INFO: No provider classes found.
+Jan 16, 2019 10:50:59 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+2019-01-16 10:50:59 [qtp11412007-41] [INFO] 收到rest 请求 stop broker 
+2019-01-16 10:50:59 [qtp11412007-41] [INFO] 开始停止broker_80_jobWaitQueueListener
+2019-01-16 10:50:59 [Thread-8] [INFO] wait queue consume speed 147.5 task/sec,task 20190114-scyhfx0079-TNyepV spends the most time, 86 ms 
+2019-01-16 10:51:00 [qtp11412007-41] [INFO] broker_80_jobWaitQueueListener停止完成
+2019-01-16 10:51:00 [qtp11412007-41] [INFO] 开始停止broker_80_jobWorkerListener
+2019-01-16 10:51:01 [qtp11412007-41] [INFO] broker_80_jobWorkerListener停止完成
+2019-01-16 10:51:01 [qtp11412007-41] [INFO] 开始停止broker_80_jobFlowTreeListener
+2019-01-16 10:51:01 [qtp11412007-41] [INFO] broker_80_jobFlowTreeListener停止完成
+2019-01-16 10:51:01 [qtp11412007-41] [INFO] 开始停止broker_80_jobDomainRefreshListener
+2019-01-16 10:51:01 [qtp11412007-41] [INFO] broker_80_jobDomainRefreshListener停止完成
+2019-01-16 10:51:01 [qtp11412007-41] [INFO] 开始停止broker_80_brokerHeartBeatListener
+2019-01-16 10:51:01 [qtp11412007-41] [INFO] broker_80_brokerHeartBeatListener停止完成
+2019-01-16 10:51:01 [main] [INFO] 收到停止信号，退出！
